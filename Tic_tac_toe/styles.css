@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+}
+div.cells {
+  background-color: rgb(122, 231, 184);
+  border-radius: 20px;
+  margin: 3px;
+  padding: 50px;
+  display: inline-flex;
+  vertical-align: top;
+  padding: 50px;
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+div:hover.cells {
+  cursor: pointer;
+  background-color: rgb(109, 249, 203);
+  box-shadow: 5px 5px 5px rgb(129, 125, 125);
+  transform: translateY(-5px);
+}
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+}
+#restart {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 40px;
+  border: solid rgb(86, 209, 127) 3px;
+  background-color: rgb(162, 237, 187);
+}
+#restart:hover {
+  background-color: rgb(117, 229, 154);
+  cursor: pointer;
+  transform: translateY(-8px);
+  box-shadow: 5px 5px 5px rgb(129, 125, 125);
+}
+p {
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+}
+.red_text {
+  color: rgb(231, 41, 41);
+}
+.blue_text {
+  color: rgb(45, 82, 228);
+}
